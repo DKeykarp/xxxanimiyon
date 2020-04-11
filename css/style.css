@@ -1,11 +1,14 @@
-html {
-    margin: 0;
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.html {
     padding: 0;
+    margin: 0;
 }
 
 .head {
     height: 100px;
-    background: #903939;
+    background: #4f3f3b;
     color: azure;
     padding: 0;
 }
@@ -16,4 +19,55 @@ html {
     background: url(/img/logo.png) 50%/contain no-repeat;
 }
 
+.lor {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 
+.lortxt {
+    width: 800px;
+    margin-left: 100px;
+    color: black;
+    font-family: 'Yseva One';
+    font-size: 20px;
+    padding-bottom: 40px; 
+}
+
+
+
+main {
+    background: url(/img/mainmb.png) 50%/cover no-repeat;
+}
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#b10000
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 50px;
+border-radius: 50px;
+background-color:#cba1ab;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:rgba(244, 0, 0, 0);
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:2px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 3px;
+}
