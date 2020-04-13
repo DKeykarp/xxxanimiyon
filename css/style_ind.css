@@ -15,7 +15,6 @@
 }
 
 
-
 .mn_bg {
     width: 100%;
     height: 100%;
@@ -27,7 +26,7 @@
     width: 300px;
     height: 715px;
     background: url(/img/logo.png) 50%/contain no-repeat;
-
+    animation: 3s;
 }
 .zk_txt {
     text-align: center;
@@ -37,4 +36,11 @@
 }
 .zk2_txt {
     color: black;
+    margin-top: 30px;
+}
+.logo2_ph {
+    width: 300px;
+    height: 715px;
+    background: url(/img/logo_2.png) 50%/contain no-repeat;
+    animation: 3s;
 }
