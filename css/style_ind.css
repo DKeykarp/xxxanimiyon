@@ -2,6 +2,14 @@
 
 .logo {
     font-family: 'Acme', sans-serif;
-    font-size: 1.7rem;
+    font-size: 2rem;
 
+}
+.hd_btn {
+    margin-left: 110px;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.bg_nav {
+    background: #530707;
 }
