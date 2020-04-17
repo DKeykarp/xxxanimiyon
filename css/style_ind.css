@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-
+/*<--header-->*/
 .logo {
     font-family: 'Acme', sans-serif;
     font-size: 2rem;
@@ -14,6 +14,7 @@
     background: #530707;
 }
 
+/*<--main-->*/
 
 .mn_bg {
     width: 100%;
@@ -43,4 +44,66 @@
     height: 715px;
     background: url(/img/logo_2.png) 50%/contain no-repeat;
     animation: 3s;
+}
+.bleach {
+    padding: 30px;
+    padding-top: 60px;
+}
+.bl_zag{
+    text-align: center;
+    font-family: Acme;
+}
+.bleach-txt {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+.bleach_img {
+    width: 300px;
+    height: 600px;
+    background: red;
+    background: url(/img/bleach.jpg) 50%/contain no-repeat;
+}
+.jj {
+    display: inline-flex;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:4px;
+height:0px
+}
+
+::-webkit-scrollbar-track {
+background-color:#b10000
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 50px;
+border-radius: 50px;
+background-color:#cba1ab;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:rgba(244, 0, 0, 0);
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width:2px;
+height:0px
+}
+
+::-webkit-scrollbar{
+width: 3px;
 }
